@@ -1,0 +1,63 @@
+@media only screen and (max-width: 576px) {
+  /* PHẦN NAVBAR */
+
+  #nav-bar-flexbox {
+    display: block;
+    border: none;
+  }
+  .nav-div {
+    border: none;
+    padding: 5px 18.4px;
+  }
+
+  .nav-bar-info {
+    display: none;
+  }
+
+  /* PHẦN THÔNG TIN CÁ NHÂN */
+  .personal-information {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+  }
+
+  /* PHẦN LÝ LỊCH */
+  /* Sửa lại grid lớn */
+  .job-info {
+    grid-template-columns: 1fr;
+  }
+
+  /* Style cho phần Chứng chỉ - Giải thưởng */
+  .cert-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .line-1,
+  .line-2 {
+    display: none;
+  }
+  .cert-info {
+    padding-bottom: 20px;
+    border-bottom: solid 1px #4688f4;
+  }
+
+  /* Style cho mục dự án */
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+  .flex-info {
+    flex-direction: column;
+    gap: 0;
+  }
+  .rounded-corner-2 {
+    align-self: flex-start;
+  }
+  .rounded-corner-2,
+  .project-title-text {
+    margin-bottom: 5px;
+  }
+
+  /* Style cho phần Footer */
+  .social-footer {
+    display: none;
+  }
+}

@@ -1,0 +1,45 @@
+@media only screen and (max-width: 992px) {
+  /* PHẦN NAVBAR */
+  /* Style cho ảnh cá nhân */
+  .nav-bar-info {
+    display: none;
+  }
+  .my-photo {
+    display: none;
+  }
+
+  /* PHẦN THÔNG TIN CÁ NHÂN */
+  #target {
+    padding: 40px 1em 0 1em;
+  }
+  #personal-info {
+    padding: 40px 1em 0 1em;
+  }
+
+  /* PHẦN LÝ LỊCH */
+  /* Sửa lại grid lớn */
+  .job-info {
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Style cho phần Chứng chỉ - Giải thưởng */
+  .certificate {
+    width: 80%;
+  }
+  .cert-info {
+    flex-direction: column;
+  }
+  .cert-img {
+    width: 100%;
+  }
+  .line-1 {
+    top: 3%;
+    height: 200px;
+  }
+
+  /* Style cho mục dự án */
+  .project {
+    width: 80%;
+  }
+}
